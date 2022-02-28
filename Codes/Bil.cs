@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace OOPH1Aflevering.Codes
 {
-    internal class Bil : MotorKøretøj
+    internal class Bil
     {
         public string Mærke { get; set; }
+        public string Model { get; set; }
+        public int Hestekræfter { get; set; }
+
+
     }
 
 }
